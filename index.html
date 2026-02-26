@@ -1,0 +1,718 @@
+<html>
+    <head>
+        <style>
+            
+
+            #connect{
+                width :auto;
+                height:auto;
+               
+                background-color:rgb(195, 177, 177);
+                color: white;
+                
+                
+            }
+            #displaySpace{
+                background-color :rgb(228, 152, 152);
+                height: fit-content;
+                padding: 10px;
+                display: flex;
+
+                
+
+
+            }
+            #body{
+                background-color: rgb(248, 215, 215);
+            }
+            
+            .store{
+
+                width :auto;
+                height:auto;
+                
+                background-color :white;
+                border-style:solid;
+                border-radius:4px ;
+                border-width:3px;
+                padding: 20px;
+                display: flex ;
+                margin : 10px;
+                font-family: "Betania Patmos";
+                
+                
+
+
+               
+               
+
+            }
+            .store1{
+                
+                width :fit-content;
+                height:auto;
+                background-color: white;
+                border-style:solid;
+                border-radius:4px ;
+                border-width:3px;
+                padding: 5px;
+                display: inline-flex;
+                margin : 10px;
+                text-decoration: wavy;
+                
+                font-size: large;
+                font-family: "Betania Patmos";
+                
+                
+            
+
+               
+               
+
+            }
+            .in{
+                display: flex;
+                margin :5px;
+                height : 25px;
+                font-family: "Betania Patmos";
+
+
+
+
+            }
+            #headerbox{
+                background-color :rgb(228, 181, 181);
+                height: 200px;
+                padding: 10px;
+                display: flex;
+                
+
+
+
+
+
+
+            }
+            #TwinBeaconIMG{
+                width :400px;
+                height :400px;
+                border-image: fill;
+                display: inline-flex;
+
+
+
+
+            }
+            #Calendartitle{
+                text-decoration: wavy;
+                text-align: center;
+                font-size: xx-large;
+                
+                
+                font-family: "Betania Patmos";
+                background-color: rgb(232, 201, 201);
+                color:white;
+            
+
+            }
+
+            .words1{
+                text-decoration: wavy;
+                
+                font-size: large;
+                font-family: "Betania Patmos";
+                
+
+            }
+            #organisationimage{
+                size: auto;
+                height: auto;
+                display: inline-block;
+                padding : 10px;
+            }
+            #titlebox2{
+                display :flex;
+                font-family: "Betania Patmos";
+                flex-direction: column;
+                color :white;
+
+
+
+            }
+            #status{
+                width :40px;
+                height:40px;
+                background-color:rgb(230, 162, 162);
+                border-style:solid;
+                border-radius:30px ;
+                border-width:2px;
+                padding: 5px;
+                display:flex;
+                margin : 10px;
+                text-align: center;
+                text-decoration: wavy;
+                font-family: "Betania Patmos";
+                
+                font-size: large;
+                
+
+
+
+
+
+            }
+            #openingpage{
+                display :inline-flex;
+                
+                height: fit-content;
+
+
+
+
+            }
+            #openpara{
+                text-align: center;
+                font-size: xx-large;
+                font-family: "Betania Patmos";
+                color: white;
+                background-color: rgb(230, 193, 193);
+                height:auto;
+                
+
+
+
+            }
+            #emaillink{
+                height:50px;
+                width : auto;
+                text-align: center;
+                background-color: rgb(215, 182, 182);
+                font-family: "Betania Patmos";
+                color :white;
+                display: none;
+
+
+
+
+            }
+            #displayspacepara{
+                
+                margin-left: auto;
+                height: fit-content;
+                
+
+            }
+            #displayspace1{
+                margin-right: auto;
+
+
+
+            }
+            #info{
+                background-color: rgb(218, 181, 181);
+                height :fit-content;
+                width:auto;
+                display: flex;
+                justify-content: center;
+                padding: 100px;
+                font-family: "Betania Patmos";
+                
+                font-size: large;
+                color: white;
+                
+
+
+
+
+            }
+            #sidetab{
+                right: 0;
+                
+                bottom: 0; 
+                position: fixed;
+                width : 200px;
+                height: 200px;
+                
+            }
+            #imagestore {
+                display:flex;
+                
+
+
+
+            }
+            #sidetabfull{
+                right: 0;
+                background-color: red;
+                
+                bottom: 0; 
+                position: fixed;
+                width : 300px;
+                height: 500px;
+                display:none;
+                
+
+                justify-content: center;
+                border-radius: 20px;
+                background-color: rgb(255, 216, 216);
+
+                
+                align-items: center;
+                flex-direction: column;
+                font-family: "Betania Patmos";
+                
+                
+                
+                
+            }
+            #closingbutton{
+                width : 50px;
+                height: 40px;
+                
+
+            }
+            #b1{
+                width:65px;
+                height: 65px;
+                border-color: rgb(225, 190, 190);
+                border-radius: 10px;
+                text-align: center;
+                right: 0;
+                font-family: "Betania Patmos";
+                bottom: 0; 
+                
+            }
+            #imagebanner{
+                justify-content: center;
+                background-color: rgb(219, 189, 189);
+                height: auto;
+                width:100%;
+                display:flex ;
+                padding: 5px;
+
+
+
+
+
+            }
+            #duorganiserlogobanner{
+                
+                width :300px;
+                height :300px;
+                padding:5px;
+
+            }
+            #options{
+
+                display:flex;
+                flex-direction: row;
+                width: 100%;
+                height: auto;
+                justify-content: center;
+                background-color: white;
+                padding: 5px;
+            }
+            .b2{
+
+
+                width : 200px;
+                font-size: x-large;
+                font-family: "Betania Patmos";
+                
+            }
+            #imageholder{
+                
+                background-color: pink;
+                
+
+
+            }
+            .tabbutton{
+                font-family: "Betania Patmos";
+                padding:5px;
+
+            }
+
+
+            
+            
+
+
+        </style> 
+    </head>
+    
+    <body id = 'body'>
+        <div id = options>
+            <div>
+            <a href='file:///C:/Users/tommy/OneDrive/Documents/Thecompany.html'>
+            <button class = 'b2'> The company</button>
+            </a>
+            </div>
+            <button class = 'b2'>
+                The product
+
+            </button>
+            
+
+
+
+        </div>
+        <link href="https://fonts.googleapis.com" rel="stylesheet">
+
+
+
+         <div id = 'emaillink'>
+            Duorganiser@gmail.com
+        </div>
+
+        <div id = 'imagebanner'> 
+            <div id = 'imageholder'>
+            <img id = 'duorganiserlogobanner' src="duorganiserlogo.jpg" alt="Flowers in Chania">
+            </div>
+
+
+        </div>
+        <div>
+       
+
+        <div id = 'openingpage'>
+          
+            <p id = 'openpara'>
+                    Duorganiser is the ultimate organisation tool . Used  in conjunction with 
+                this calendar gain access to your potential. The device uses two LED's to 
+                alert the user to if a task in your calendar is ongoing or coming up , making
+                this tool valuable in work and study environments .
+            </p>
+
+
+        </div>
+        <div id = 'headerbox'>
+            <div class = 'words2'>
+                
+                
+            </div>
+
+        <div id = 'titlebox2'>
+        <button id = "connect" class = 'in'>Push to connect to your Duorganiser</button>
+        
+        <input class = 'in' id = 'activity' placeholder = 'activity' type = text>
+        <input class = 'in' id = 'endtime' placeholder = 'endtime' type = time>
+        endtime
+        <input class = 'in' id = 'starttime' placeholder = 'starttime' type = time>
+        start time
+        <input class = 'in' id = 'date' placeholder = 'date' type = date >
+        date (Month/Day)
+        <button class = 'in' id = 'submittask' onclick="addTask()" class = 'words1'>
+            Add task to your calendar 
+        </button>
+        </div>
+        
+        
+        
+        <div id = "status"  >
+            idle
+        </div>
+        <div id = 'imagestore'>
+        <img id = 'organisationimage' src="organisationimage.jpg" alt="Flowers in Chania">
+        <img id = 'organisationimage' src="techimage.jpg" alt="Flowers in Chania">
+        <img id = 'organisationimage' src="stock image.webp" alt="Flowers in Chania">
+        </div>
+        </div>
+        <div id = 'calendartitle'>
+            My Calendar 
+        </div>
+        </div>
+        
+        <div id = 'displaySpace'>
+            <div id = 'displaySpace1'>
+
+
+
+            </div>
+
+
+
+            <div id = 'displayspacepara'>
+            <p id='openpara'>
+                   Once you have entered in your schedule , and connected to the device, the
+                program will scan through your schedule and notify you if you A - have an 
+                activity that is taking place at the current time(Right node) or B - have 
+                an activity that is less than 30 minutes away.
+            </p>
+            </div>
+
+             
+
+        </div>
+        <div id = 'info'>
+            Email : Duorganiser@gmail.com
+
+
+
+             </div>
+        
+        <div id = 'status1'>
+            hihi
+
+        </div>
+        </div>
+        <div id = 'sidetab' onclick="opensidetabfull()">
+            <button id = 'b1'>
+                Open side tab
+            </button>
+        
+        </div>
+
+
+        <div id= 'sidetabfull' >
+            <button id = 'closingbutton' class = 'tabbutton' onclick = "opensidetabfull()">  Close tab </button>
+            
+            <button id = 'sign out' class = 'tabbutton' >
+                
+                <a href="file:///C:/Users/tommy/OneDrive/Documents/signinpage.html">
+                    Click here to sign out
+
+                </a>
+
+
+
+            </button>
+        </div>
+        
+    </body>
+
+
+
+    <script>
+    const connect = document.getElementById('connect');
+    const status = document.getElementById('status');
+    const calendar = [];
+    const now = new Date();
+    let characteristic = "";
+    const broadcasting = false;
+    let taskongoing = false;
+    let taskupcoming = false;
+
+    
+    function getTodayString() {
+        const d = new Date();
+        const year = d.getFullYear();
+        const month = String(d.getMonth() + 1).padStart(2, '0');
+        const day = String(d.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    }
+    function getNowTime(){
+        const d1 = new Date() ; 
+        const d1min = d1.getMinutes();
+        const d1hoursmins = d1.getHours();
+        return ( (d1hoursmins*60 ) + d1min )
+    }
+
+
+
+
+
+
+    
+
+
+    function addTask(){
+        
+        const status = document.getElementById('status');
+        status.innerHTML = 'adding';
+        starttime1 = document.getElementById('starttime').value
+        endtime1 = document.getElementById('endtime').value
+        const [starthours, startmins] = starttime1.split(':').map(Number); 
+        const [endhours, endmins] = endtime1.split(':').map(Number);
+
+        const endtime = (endhours* 60 ) + endmins ; 
+        const starttime = (starthours*60) + startmins ;
+        
+        const date = document.getElementById('date').value;
+        const activity = document.getElementById('activity').value;
+        
+        
+        calendar.push([starttime,endtime,date,activity]);
+        
+        
+        
+        displayevent(starttime,endtime,date,activity) ;
+        status1.innerHTML = 'hello'
+
+        
+
+
+    }
+    function opensidetabfull(){
+        
+        var x = document.getElementById("sidetabfull");
+        if (x.style.display === "none") {
+            x.style.display = "flex";
+        } else {
+            x.style.display = "none";
+
+
+
+    };}
+  
+    function displayevent(starttime,endtime,date,activity){
+        const displaySpace = document.getElementById('displaySpace');
+        const starttimestore = document.createElement("div");
+        const endtimestore = document.createElement("div");
+        const activitystore = document.createElement("div");
+        const datestore = document.createElement("div");
+        const ministore = document.createElement("div");
+        const status1 = document.getElementById("status1");
+        
+
+        starttimestore.className = 'store';
+        endtimestore.className = 'store';
+        datestore.className='store';
+        activitystore.className = 'store';
+        ministore.className = 'store1';
+        status1.innerHTML = 'completed';
+        
+        starttimestore.innerHTML = 'Start time:' + starttime;
+        endtimestore.innerHTML = 'End time:' + endtime;
+        datestore.innerHTML = 'Date:' + date ;
+        activitystore.innerHTML = 'Activity:' + activity;
+        displaySpace1.appendChild(ministore);
+        ministore.appendChild(starttimestore);
+        ministore.appendChild(endtimestore);
+        ministore.appendChild(datestore);
+        ministore.appendChild(activitystore);
+    }
+
+
+    async function broadcastTaskStatus(){
+
+        
+        const status = document.getElementById('status');
+        const [taskupcoming , taskongoing] = currentsituations();
+        status1.innerHTML = 'completed111';
+        let tosend = ''
+        if (taskupcoming){
+            tosend += '01';
+        }else {
+            tosend += '00';
+        }
+        if ( taskongoing){
+            tosend += '01';
+        }else {
+            tosend += '00';
+        }
+        try {
+            if (characteristic) {
+
+
+                const encoder = new TextEncoder();
+                await characteristic.writeValue(encoder.encode(tosend));
+                
+                status.innerHTML = tosend;
+                console.log('Sent:', tosend);
+            } else {
+                status.innerHTML = 'Not Connected';
+            }
+        } catch (error) {
+            console.error("Broadcast failed:", error);
+            status1.innerHTML = 'Error!';
+        }
+}
+
+
+
+
+
+
+    function currentsituations(){
+        const datenow = getTodayString();
+        
+        
+        
+        taskupcoming = false;
+        taskongoing = false ;
+        const nownow = getNowTime();
+        
+        
+        
+        for (let i=0 ; i < calendar.length ;i ++){
+            
+            status1.innerHTML = 'hi';
+            if ( calendar[i][2] === datenow ){
+                status.innerHTML = 'got past f1'
+                if (calendar[i][0] <= nownow && calendar[i][1] >= nownow ){
+
+                    taskongoing = true;
+                }
+                if (calendar[i][0] >= nownow && calendar[i][0] <= nownow + 30){
+                    taskupcoming = true;
+                }
+                
+            }
+            status1.innerHTML = 'completed1'
+            
+            
+            
+        
+        
+
+        }
+        return [taskupcoming , taskongoing];
+
+
+    }
+    function repeater(){
+        
+            currentsituations();
+            broadcastTaskStatus();
+            setTimeout(repeater,2000);
+
+        }
+        
+
+    
+    
+
+  
+   
+    
+
+    connect.addEventListener('click', async() => {
+        try {
+
+            status.textContent = 'requesting device';
+            status1 = document.getElementById('status1');
+            const device = await navigator.bluetooth.requestDevice({
+                filters: [ { name : 'ESP32-C3'},
+                {services :['12345678-1234-1234-1234-1234567890ab']}],
+                optionalServices: ['battery_service']
+                
+            });
+            
+            const server = await device.gatt.connect();
+            
+            const service = await server.getPrimaryService('12345678-1234-1234-1234-1234567890ab');
+        
+            characteristic = await service.getCharacteristic('abcd1234-1234-1234-1234-abcdef123456');
+            
+            
+            repeater();
+            
+            function onDisconnected(event) {
+                const device = event.target;
+                
+
+                status.textContent = 'Stopped broadcasting'
+                output.textContent = `${device.name || device.id} disconnected`;
+            }
+        }  catch (error) {
+            status1.innerHTML = 'Error: ' + error.message;
+            console.error(error)
+        };
+
+
+    }
+    );
+    </script>
+    
+</html>
