@@ -1,29 +1,36 @@
 <html>
     <head>
-        <style>
-            
+             <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
 
+        <style>
+       
             #connect{
                 width :auto;
                 height:auto;
                
-                background-color:rgb(195, 177, 177);
-                color: white;
+                background-color:rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
                 
                 
             }
             #displaySpace{
-                background-color :rgb(228, 152, 152);
+                background-color :rgb(255, 255, 255);
                 height: fit-content;
                 padding: 10px;
                 display: flex;
+                border : 6px;
+                border-style: solid;
+                border-radius: 15px;
+              
 
                 
 
 
             }
             #body{
-                background-color: rgb(248, 215, 215);
+                background-color: rgb(255, 255, 255);
             }
             
             .store{
@@ -33,13 +40,12 @@
                 
                 background-color :white;
                 border-style:solid;
-                border-radius:4px ;
-                border-width:3px;
+                border-radius:20px ;
+                border-width:6px;
                 padding: 20px;
                 display: flex ;
                 margin : 10px;
-                font-family: "Betania Patmos";
-                
+                font-family: "Coiny";
                 
 
 
@@ -53,15 +59,15 @@
                 height:auto;
                 background-color: white;
                 border-style:solid;
-                border-radius:4px ;
-                border-width:3px;
+                border-radius:20px ;
+                border-width:6px;
                 padding: 5px;
                 display: inline-flex;
                 margin : 10px;
                 text-decoration: wavy;
                 
                 font-size: large;
-                font-family: "Betania Patmos";
+                font-family: "Coiny";
                 
                 
             
@@ -72,19 +78,39 @@
             }
             .in{
                 display: flex;
-                margin :5px;
-                height : 25px;
-                font-family: "Betania Patmos";
+                justify-content: center;
+                text-align: center;
+                
+                
+                font-family: "Coiny";
+                font-size: x-large;
+                width :auto;
+                height:auto;
+                padding :10px;
+                border: 5px solid #000;
+                border-radius :25px;
+                
+                
+               
 
 
 
 
             }
+            .divider{
+    width:20px;
+    height:auto;
+    display:inline-block;
+}
             #headerbox{
-                background-color :rgb(228, 181, 181);
+                background-color :rgb(255, 255, 255);
                 height: 200px;
-                padding: 10px;
+                padding: 20px;
+                justify-content: center;
+                
                 display: flex;
+
+
                 
 
 
@@ -109,9 +135,9 @@
                 font-size: xx-large;
                 
                 
-                font-family: "Betania Patmos";
-                background-color: rgb(232, 201, 201);
-                color:white;
+                font-family: "Coiny";
+                background-color: rgb(255, 255, 255);
+                color:rgb(0, 0, 0);
             
 
             }
@@ -120,7 +146,7 @@
                 text-decoration: wavy;
                 
                 font-size: large;
-                font-family: "Betania Patmos";
+                font-family: "Coiny";
                 
 
             }
@@ -132,9 +158,12 @@
             }
             #titlebox2{
                 display :flex;
-                font-family: "Betania Patmos";
-                flex-direction: column;
-                color :white;
+                font-family: "Coiny";
+                flex-direction: row;
+                padding: 20px;
+
+
+                color :rgb(0, 0, 0);
 
 
 
@@ -142,7 +171,7 @@
             #status{
                 width :40px;
                 height:40px;
-                background-color:rgb(230, 162, 162);
+                background-color:rgb(255, 255, 255);
                 border-style:solid;
                 border-radius:30px ;
                 border-width:2px;
@@ -151,7 +180,7 @@
                 margin : 10px;
                 text-align: center;
                 text-decoration: wavy;
-                font-family: "Betania Patmos";
+                font-family: "Coiny";
                 
                 font-size: large;
                 
@@ -173,9 +202,9 @@
             #openpara{
                 text-align: center;
                 font-size: xx-large;
-                font-family: "Betania Patmos";
-                color: white;
-                background-color: rgb(230, 193, 193);
+                font-family: "Coiny";
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
                 height:auto;
                 
 
@@ -187,8 +216,8 @@
                 width : auto;
                 text-align: center;
                 background-color: rgb(215, 182, 182);
-                font-family: "Betania Patmos";
-                color :white;
+                font-family: "Coiny";
+                color :rgb(0, 0, 0);
                 display: none;
 
 
@@ -209,16 +238,17 @@
 
             }
             #info{
-                background-color: rgb(218, 181, 181);
+                background-color: rgb(255, 255, 255);
                 height :fit-content;
                 width:auto;
                 display: flex;
                 justify-content: center;
-                padding: 100px;
-                font-family: "Betania Patmos";
+                padding: 20px;
+                font-family: "Coiny";
+                flex-direction: row;
                 
                 font-size: large;
-                color: white;
+                color: rgb(0, 0, 0);
                 
 
 
@@ -228,24 +258,19 @@
             #sidetab{
                 right: 0;
                 
-                bottom: 0; 
+                top: 0;
                 position: fixed;
                 width : 200px;
                 height: 200px;
+                display: none;
                 
             }
-            #imagestore {
-                display:flex;
-                
-
-
-
-            }
+            
             #sidetabfull{
                 right: 0;
-                background-color: red;
+                background-color: rgb(255, 255, 255);
                 
-                bottom: 0; 
+                top: 0; 
                 position: fixed;
                 width : 300px;
                 height: 500px;
@@ -254,12 +279,12 @@
 
                 justify-content: center;
                 border-radius: 20px;
-                background-color: rgb(255, 216, 216);
+                background-color: rgb(255, 255, 255);
 
                 
                 align-items: center;
                 flex-direction: column;
-                font-family: "Betania Patmos";
+                font-family: "Coiny";
                 
                 
                 
@@ -274,30 +299,40 @@
             #b1{
                 width:65px;
                 height: 65px;
-                border-color: rgb(225, 190, 190);
+                border-color: rgb(255, 255, 255);
                 border-radius: 10px;
                 text-align: center;
                 right: 0;
-                font-family: "Betania Patmos";
+                font-family: "Coiny";
                 bottom: 0; 
                 
             }
             #imagebanner{
-                justify-content: center;
-                background-color: rgb(219, 189, 189);
+                
+                background-color: rgb(255, 255, 255);
                 height: auto;
                 width:100%;
                 display:flex ;
                 padding: 5px;
+                flex-direction: row;
 
 
 
 
 
             }
+            #imagebanneri{
+                
+                background-color: rgb(255, 255, 255);
+                height: auto;
+                width:auto;
+                display: flex;
+                justify-content: center;
+                padding: 5px;}
+
             #duorganiserlogobanner{
                 
-                width :300px;
+                width :auto;
                 height :300px;
                 padding:5px;
 
@@ -317,19 +352,36 @@
 
                 width : 200px;
                 font-size: x-large;
-                font-family: "Betania Patmos";
+                font-family: "Coiny";
                 
             }
             #imageholder{
+                width :auto;
+                height:auto;
+                justify-content: center;
                 
-                background-color: pink;
+                background-color: rgb(255, 255, 255);
                 
 
 
             }
             .tabbutton{
-                font-family: "Betania Patmos";
+                font-family: "Coiny";
                 padding:5px;
+
+            }
+            #labels{
+                font-size: x-large;
+                font-family: "Coiny";
+
+
+
+
+            }
+            #duorganiselogo{
+                width :300px;
+                height:300px;
+
 
             }
 
@@ -365,9 +417,9 @@
             Duorganiser@gmail.com
         </div>
 
-        <div id = 'imagebanner'> 
+        <div id = 'imagebanneri'> 
             <div id = 'imageholder'>
-            <img id = 'duorganiserlogobanner' src="duorganiserlogo.jpg" alt="Flowers in Chania">
+            <img id = 'duorganiserlogobanner' src="duorganise!.jpg" alt="Flowers in Chania">
             </div>
 
 
@@ -378,45 +430,62 @@
         <div id = 'openingpage'>
           
             <p id = 'openpara'>
-                    Duorganiser is the ultimate organisation tool . Used  in conjunction with 
-                this calendar gain access to your potential. The device uses two LED's to 
-                alert the user to if a task in your calendar is ongoing or coming up , making
-                this tool valuable in work and study environments .
-            </p>
+                 
 
 
         </div>
+       
         <div id = 'headerbox'>
-            <div class = 'words2'>
-                
-                
-            </div>
+            
 
+
+
+            
         <div id = 'titlebox2'>
         <button id = "connect" class = 'in'>Push to connect to your Duorganiser</button>
-        
+        <div class= "divider"></div>
         <input class = 'in' id = 'activity' placeholder = 'activity' type = text>
-        <input class = 'in' id = 'endtime' placeholder = 'endtime' type = time>
-        endtime
-        <input class = 'in' id = 'starttime' placeholder = 'starttime' type = time>
-        start time
-        <input class = 'in' id = 'date' placeholder = 'date' type = date >
-        date (Month/Day)
+        <div class= "divider"></div>
+        <div id = "labels">
+           Start time  
+           <input class = 'in' id = 'starttime' placeholder = 'starttime' type = time>
+           
+            </div>
+
+        
+        <div class= "divider"></div>
+         <div id = "labels">
+           End time  
+           <input class = 'in' id = 'endtime' placeholder = 'endtime' type = time>         
+                
+            </div>
+         
+
+        <div class= "divider"></div>
+        <div id = "labels">
+           Date
+           <input class = 'in' id = 'date' placeholder = 'date' type = date >
+           
+           
+            </div>
+
+
+
+        
+        <div class= "divider"></div>
         <button class = 'in' id = 'submittask' onclick="addTask()" class = 'words1'>
             Add task to your calendar 
         </button>
-        </div>
-        
-        
-        
-        <div id = "status"  >
+         <div id = "status" class = "in" >
             idle
         </div>
-        <div id = 'imagestore'>
-        <img id = 'organisationimage' src="organisationimage.jpg" alt="Flowers in Chania">
-        <img id = 'organisationimage' src="techimage.jpg" alt="Flowers in Chania">
-        <img id = 'organisationimage' src="stock image.webp" alt="Flowers in Chania">
+
+
+
+
         </div>
+       
+        
         </div>
         <div id = 'calendartitle'>
             My Calendar 
@@ -445,11 +514,13 @@
 
         </div>
         <div id = 'info'>
-            Email : Duorganiser@gmail.com
+            <img id = "duorganiselogo" src="1772149489662.jpg" alt="Flowers in Chania">
+            <p>Email : Duorganiser@gmail.com</p> 
 
 
 
              </div>
+        
         
         <div id = 'status1'>
             hihi
@@ -478,45 +549,8 @@
 
             </button>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-        <input type="email" id="signupEmail" placeholder="Email">
-<input type="password" id="signupPassword" placeholder="Password">
-<button onclick="signUp(document.getElementById('signupEmail').value, document.getElementById('signupPassword').value)">Sign Up</button>
-
-<!-- Sign In Form -->
-<input type="email" id="signinEmail" placeholder="Email">
-<input type="password" id="signinPassword" placeholder="Password">
-<button onclick="signIn(document.getElementById('signinEmail').value, document.getElementById('signinPassword').value)">Sign In</button>
-
-<!-- Sign Out Button -->
-<button onclick="signOut()">Sign Out</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     </body>
+        
+    </body>
 
 
 
@@ -751,75 +785,5 @@
     }
     );
     </script>
-    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-database.js"></script>
-
-<script>
-const firebaseConfig = {
-   apiKey: "AIzaSyCpFvH0SkHt3qu7gYcs8rWDvpUMSDMRUDA",
-    authDomain: "duorganiser-b71af.firebaseapp.com",
-    projectId: "duorganiser-b71af",
-    storageBucket: "duorganiser-b71af.firebasestorage.app",
-    messagingSenderId: "1089606860491",
-    appId: "1:1089606860491:web:758444502e2c77ef0f654e",
-    measurementId: "G-QS8M4Y8W8J",
-    databaseURL: "https://Duorganiser.firebaseio.com",
-  };
-  
-
-
-firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
-const db = firebase.database();
-
-// SIGN UP (Create Account)
-function signUp(email, password) {
-  auth.createUserWithEmailAndPassword(email, password)
-    .then(user => {
-      alert('Account created!');
-      // Save user data
-      db.ref('users/' + user.user.uid).set({
-        email: email,
-        createdAt: new Date()
-      });
-    })
-    .catch(error => alert('Error: ' + error.message));
-}
-
-// SIGN IN (Login)
-function signIn(email, password) {
-  auth.signInWithEmailAndPassword(email, password)
-    .then(user => {
-      alert('Logged in!');
-      // Now you can access their data
-      loadUserData(user.user.uid);
-    })
-    .catch(error => alert('Error: ' + error.message));
-}
-
-// LOAD USER DATA (After login)
-function loadUserData(userId) {
-  db.ref('users/' + userId).on('value', snapshot => {
-    console.log('User data:', snapshot.val());
-  });
-}
-
-// SIGN OUT (Logout)
-function signOut() {
-  auth.signOut().then(() => {
-    alert('Logged out!');
-  });
-}
-
-// Check if user is logged in
-auth.onAuthStateChanged(user => {
-  if (user) {
-    console.log('User is logged in:', user.email);
-  } else {
-    console.log('User is logged out');
-  }
-});
-</script>
     
 </html>
